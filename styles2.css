@@ -1,0 +1,19 @@
+p {
+  color : blue;
+  background-color : none ;
+}
+body{
+  color : red ;
+  background-color : yellow ;
+}
+h{
+  color : green ;
+  background-color : none ;
+}
+button{
+  color : blue ;
+  background-color : violet ;
+}
+img {
+  padding: 10px ;
+}
