@@ -1,7 +1,44 @@
-<!Doctype = html>
-<html>
-<head>
-<link
+<!Doctype html>
+<html lang="en">
+<head id = "Home" link = index.html>
+    <link id = "Favicon" rel = "icon" type = "image/x-icon" href = "lkjdsljf">
+    <title> The History of Waffles </title>
+    <link rel = "stylesheet" href = "Waffles.css"/>
 </head>
-<body></body>
+<h1> The History of Waffles</h1>
+<body>
+  <button onclick="window.location.href ='index.html'"> Home </button>
+  <button onclick="window.location.href='page1.html'"> History </button>
+  <button onclick="window.location.href='https://youtu.be/JVE8zG6mksI?si=8RvxFQrphX-GDNqd'">Video</button></button>
+<p>
+    Hello. Have you ever wondered where waffles originated from? Waffles are one 
+    of the most popular dishes in the world. Most people think waffles are a random 
+    dish that popped out of nowhere, but in actuality waffles have a history just 
+    like any other dish.
+    
+    </p>
+    
+    <p>
+      - If you would like to know about the history of Waffles, 
+        click on the history button.
+    </p>
+    
+    <p>
+      - If you would like to eat waffles but do not know how to make them,
+        then click on the How to Make Waffles button.
+    </p>
+    <p>
+      - If you would like to know more about the history of Waffles,
+      click on the Video button.
+    </p>
+    <script>
+      function Page1 (){
+        document.getElementByID("window1").addEventListener("Click", window.location.href = "index.html");
+      }
+      function Page2 (){
+        document.getElementByID("window2").addEventListener("Click", window.location,href = "page1.html");
+      }
+    </script>
+</body>
+
 </html>
