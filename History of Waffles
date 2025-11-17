@@ -8,35 +8,30 @@
 <h1> The History of Waffles</h1>
 <body>
   <button onclick="window.location.href ='index.html'"> Home </button>
-  <button onclick="window.location.href='page1.html'"> History </button>
-  <button onclick="window.location.href='https://youtu.be/JVE8zG6mksI?si=8RvxFQrphX-GDNqd'">Video</button></button>
+  <button onclick="History()"> History </button>
+  <button onclick="HowtoMakeWaffles()">How to Make Waffles</button>
+  <img src="https://www.allrecipes.com/thmb/nhTXGubKmaQpmi4DZK_q1j2YGFk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/20513-classic-waffles-mfs-025-4x3-81c0f0ace44d480ca69dd5f2c949731a.jpg"
+ width = 700 height = 350 >
 <p>
-    Hello. Have you ever wondered where waffles originated from? Waffles are one 
-    of the most popular dishes in the world. Most people think waffles are a random 
-    dish that popped out of nowhere, but in actuality waffles have a history just 
-    like any other dish.
-    
-    </p>
+    Hello there, how are you on this fine day? Have you ever wondered where 
+    waffles originated from? Waffles are one of the most popular dishes 
+    in the world. Most people think waffles are a random dish that popped out
+    of nowhere, but in actuality waffles have a history just like any other dish.</p>
     
     <p>
       - If you would like to know about the history of Waffles, 
-        click on the history button.
-    </p>
+        click on the history button.</p>
     
     <p>
       - If you would like to eat waffles but do not know how to make them,
         then click on the How to Make Waffles button.
     </p>
-    <p>
-      - If you would like to know more about the history of Waffles,
-      click on the Video button.
-    </p>
     <script>
-      function Page1 (){
-        document.getElementByID("window1").addEventListener("Click", window.location.href = "index.html");
+      function History(){
+        window.location.href = " page1.html ";
       }
-      function Page2 (){
-        document.getElementByID("window2").addEventListener("Click", window.location,href = "page1.html");
+      function HowtoMakeWaffles(){
+        window.location.href= " page2.html "
       }
     </script>
 </body>
